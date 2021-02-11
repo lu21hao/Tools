@@ -1,0 +1,4 @@
+1, 覆盖之前提交：
+$git add --all
+$git commit --amend   or $git commit --amend -m "info"
+$git push -f
