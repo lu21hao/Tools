@@ -1,0 +1,23 @@
+
+Install Emcas:
+step 1 $sudo add-apt-repository ppa:kelleyk/emacs   ; check emacs version in the comments
+step 2 $sudo apt-get update 
+step 3 $sudo apt install emacs26                    ; 26 is the emacs version
+step 4 $emacs --version 
+                            ; check emacs version
+Remove Emcas:
+step 1 sudo apt-get purge emacs26
+step 2 sudo apt-get autoremove
+
+Emacs configuration for Latex
+1 install auctex and texlive
+$sudo apt install auctex
+$sudo apt install texlive-xetex
+
+
+
+Useful command:
+
+$emacs -nw    ;Open and keep emacs in the terminal
+
+
