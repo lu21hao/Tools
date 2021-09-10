@@ -1,0 +1,41 @@
+this has been tried on ubuntu  20.04
+
+
+Installation:
+there are two way to insall Xfce:
+before install it please update and upgrade the current software:
+$ sudo apt update
+$ sudo apt upgrade
+
+First way only install Xface
+
+step 1, $ sudo apt install xfce4
+step 2, choose gdm3 
+step 3, logOut
+step 4, choose Xfce Session before login
+step 5, login
+
+
+Second Way install Xubuntu desktop. because Xfce4 include inside of that
+
+step 1, $ sudo apt install xubuntu-desktop
+step 2, choose lightdm  or gdm3 
+step 3, logOut
+step 4, choose Xfce Session before login
+step 5, login
+In this way you will have Xubuntu desktop as well.
+
+
+Uninstallation:
+go to normal ubuntu desktop mode
+
+for remove Xface:
+
+$sudo apt-get purge xubuntu-icon-theme xfce4*
+$sudo apt autoremove
+
+for remove Xubuntu desktop mode:
+
+$sudo apt-get purge xubuntu-desktop xubuntu-icon-theme xfce4*
+$sudo apt-get purge plymouth-theme-xubuntu-logo plymouth-theme-xubuntu-text
+$sudo apt autoremove
