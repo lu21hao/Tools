@@ -1,0 +1,17 @@
+Fix issue that stops you being able to log back on if you go into screen saver	
+
+    sudo chown root:shadow /etc/gshadow
+
+    sudo chown root:shadow /etc/gshadow-
+
+    sudo chown root:shadow /etc/shadow
+
+    sudo chown root:shadow /etc/shadow-
+
+
+    sudo chown root:shadow /sbin/unix_chkpwd
+    sudo chmod 2755 /sbin/unix_chkpwd
+
+
+    sudo chown root:shadow /etc/shadow
+    sudo chmod u=r,g=r /etc/shadow

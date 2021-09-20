@@ -18,6 +18,10 @@ step 5, login
 
 Second Way install Xubuntu desktop. because Xfce4 include inside of that
 
+$ sudo apt install tasksel
+$ sudo tasksel install xubuntu-desktop
+or 
+
 step 1, $ sudo apt install xubuntu-desktop
 step 2, choose lightdm  or gdm3 
 step 3, logOut

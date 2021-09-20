@@ -1,0 +1,9 @@
+
+in the bashrc file
+#opencv 2.4.13
+#export PKG_CONFIG_PATH=/home/hlu/opencv-2.4.13/build/installed/lib/pkgconfig
+#export LD_LIBRARY_PATH=/home/hlu/opencv-2.4.13/build/installed/lib
+
+#opencv 3.4.7
+#export PKG_CONFIG_PATH=/home/hlu/opencv-3.4.7/build/installed/lib/pkgconfig
+#export LD_LIBRARY_PATH=/home/hlu/opencv-3.4.7/build/installed/lib

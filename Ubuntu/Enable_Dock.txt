@@ -1,0 +1,40 @@
+
+
+
+
+enable dock to use keyboard and mouse
+
+hlu@:~$ boltctl
+ ● Dell WD19TB Thunderbolt Dock
+   ├─ type:          peripheral
+   ├─ name:          WD19TB Thunderbolt Dock
+   ├─ vendor:        Dell
+   ├─ uuid:          003529c0-ace1-d400-ffff-ffffffffffff
+   ├─ status:        connected
+   │  ├─ domain:     c3030000-0072-7c0e-83fa-1b861a612a02
+   │  └─ authflags:  none
+   ├─ connected:     Mon 13 Sep 2021 08:29:49 UTC
+   └─ stored:        no
+
+hlu@:~$ boltctl authorize 003529c0-ace1-d400-ffff-ffffffffffff
+
+
+hlu@:~$ boltctl enroll 003529c0-ace1-d400-ffff-ffffffffffff
+ ● Dell WD19TB Thunderbolt Dock
+   ├─ type:          peripheral
+   ├─ name:          WD19TB Thunderbolt Dock
+   ├─ vendor:        Dell
+   ├─ uuid:          003529c0-ace1-d400-ffff-ffffffffffff
+   ├─ dbus path:     /org/freedesktop/bolt/devices/003529c0_ace1_d400_ffff_ffffffffffff
+   ├─ status:        authorized
+   │  ├─ domain:     c3030000-0072-7c0e-83fa-1b861a612a02
+   │  ├─ parent:     c3030000-0072-7c0e-83fa-1b861a612a02
+   │  ├─ syspath:    /sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/0000:04:00.0/0000:05:00.0/domain0/0-0/0-3
+   │  └─ authflags:  none
+   ├─ authorized:    Mon 13 Sep 2021 08:41:00 UTC
+   ├─ connected:     Mon 13 Sep 2021 08:39:37 UTC
+   └─ stored:        Mon 13 Sep 2021 08:41:00 UTC
+      ├─ policy:     auto
+      └─ key:        no
+
+
